@@ -1,0 +1,150 @@
+@media(max-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media(max-width: 992px){
+  .container {
+    max-width: 960px;
+  }
+  .navbar li {
+    margin: 0 15px;
+  }
+  .service-wrap {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+.team-wrap {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+}
+
+@media(max-width: 810px){
+  .container {
+    max-width: 720px;
+  }
+  #menu-btn {
+    display: inline;
+    z-index: 1;
+  }
+  .navbar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+  }
+  .navbar.active {
+    left: 0;
+  }
+  .navbar li {
+    margin: 20px;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+  .home h1 {
+    font-size: 50px;
+  }
+  .home p {
+    font-size: 18px;
+  }
+  .about {
+    padding: 70px 0;
+  }
+  .about-wrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about-content span {
+    margin-bottom: 18px;
+  }
+  .about-content p {
+    width: 100%;
+  }
+  .about-img {
+    display: none;
+  }
+  .stend-content {
+    padding: 150px 0;
+  }
+  .stend-content h3 {
+    font-size: 50px;
+  }
+  .team-wrap {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    text-align: center;
+  }
+  .contact-wrap {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .location iframe {
+    width: 450px;
+    height: 450px;
+  }
+  .footer-wrap {
+    flex-direction: column;
+  }
+  .open {
+    margin: 15px 0;
+  }
+}
+
+@media(max-width:576px){
+  .container {
+    max-width: 540px;
+  }
+  .header {
+    height: 500px;  
+  }
+  .home {
+    padding: 70px 0;
+  }
+  .home h1 {
+    font-size: 42px;
+    line-height: 40px;
+  }
+  .home p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+.service-wrap {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 30px;
+  }
+  .stend-content h3 {
+    font-size: 40px;
+  }
+  .stend-content p {
+    font-size: 16px;
+  }
+  .team-wrap {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    text-align: center;
+  }
+  .footer {
+    padding: 40px 0 30px;
+  }
+}
